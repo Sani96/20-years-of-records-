@@ -17,10 +17,10 @@ def choice():
     
 #Football
 class Football:
-    ligue_name: ""
-    ligue_year: ""
-    ligue_winner: ""
-    ligue_top_scorers: ""
+    ligue_name = ""
+    ligue_year = ""
+    ligue_winner = ""
+    ligue_top_scorers = ""
     def show_league(self):
         print("===============================================================================================================================================")
         print("[Ligue name]: "+self.ligue_name)
