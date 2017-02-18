@@ -11,6 +11,9 @@ def choice():
     user_choice=input("Type here the sport you want to look for. E.g. 'football' or 'tennis'...")
     if user_choice=="football":
         football()
+    else:
+        print("The sport you're looking for is not available now. Try again!")
+        return choice()
     
 #Football
 class Football:
